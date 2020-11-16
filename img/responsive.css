@@ -1,0 +1,200 @@
+@media (max-width: 500px){
+    .slide-text-container{
+        width: 90%;
+    }
+}
+
+@media (min-width: 768px){
+    .main-container{
+        width: 750px;
+    }
+}
+
+@media (max-width: 991px){
+    .navbar{
+        display: none;
+    }
+
+    .slide-text-container{
+        width: 720px;
+    }
+
+     .services-container .service-box{
+        width: 45%;
+    }
+
+    .about-section-main-container .main-container{
+        flex-direction: column;
+    }
+
+    .about-img-container{
+        width: 100%;
+    }
+
+    .about-text-container{
+        width: 100%;
+        padding-top: 50px;
+    }
+
+    footer .main-container{
+        flex-wrap: wrap;
+    }
+
+    .footer-box{
+        width: 45%;
+    }
+
+    .contact-details-container{
+        flex-direction: column;
+    }
+
+    .detail-box{
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .detail-box:first-child{
+        margin-top: 0px;
+    }
+
+    .team-section-main-container .main-container{
+        flex-direction: column;
+    }
+
+    .team-text-container{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .team-img-container{
+        width: 100%;
+    }
+
+    .submit-bttn{
+        width: 130px;
+    }
+}
+
+@media (max-width: 767px){
+    .main-container{
+        width: 95%;
+    }
+
+    .social-media-container{
+        display: none;
+    }
+
+    .previous-slide-bttn{
+        top: 85%;
+        bottom: 30px;
+    }
+
+    .next-slide-bttn{
+        top: 85%;
+    }
+
+    .slide-text-container{
+        width: 540px;
+    }
+
+    .about-img-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .single-img-container{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .img-2-container{
+        width: 100%;
+    }
+
+    .bottom-img-container{
+        width: 100%;
+    }
+
+    .footer-box{
+        width: 100%;
+    }
+
+    .input-50{
+        width: 100%;
+    }
+
+    .input-2-container{
+       flex-direction: column;
+    }
+
+    .contact-form-container{
+        width: 90%;
+    }
+}
+
+@media (max-width: 700px){
+    .services-container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .services-container .service-box{
+        width: 290px;
+    }
+}
+
+@media (max-width: 550px){
+    .slide-text-container{
+        width: 90%;
+        padding-top: 20vh;
+    }
+
+    .slide-text-container h1{
+        font-size: 40px;
+    }
+
+    .previous-slide-bttn{
+        left: 20px;
+    }
+
+    .next-slide-bttn{
+        right: 20px;
+    }
+}
+
+@media (max-width: 424px){
+    .about-box-container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-box-container .box{
+        width: 80%;
+        margin-top: 20px;
+    }
+}
+
+
+@media (min-width: 992px){
+    .main-container{
+        width: 970px;
+    }
+
+    .burger-menu{
+        display: none;
+    }
+}
+
+@media (min-width: 1200px){
+    .main-container{
+        width: 1170px;
+    }
+
+    .slide-text-container{
+        width: 900px;
+    }
+}
+
+
+
+
